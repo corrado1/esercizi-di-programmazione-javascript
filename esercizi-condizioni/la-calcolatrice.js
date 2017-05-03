@@ -14,3 +14,23 @@
   Utilizza il costrutto Switch-Case mediante acquisizione di caratteri.
   http://www.imparareaprogrammare.it
 */
+var primo =5;
+var secondo =2;
+var funz= "^";
+
+switch (funz) {
+  case"+": console.log("addizione "+(primo+secondo));
+       break;
+  case "-": console.log("sottrazione "+(primo-secondo));
+       break;
+  case "*": console.log("moltiplicazione "+(primo*secondo));
+      break;
+  case "/": console.log("divisione "+(primo/secondo));
+      break;
+  case "%": console.log("resto "+(primo%secondo));
+      break;
+ case "^": console.log("potenza "+(Math.pow(primo,secondo)));
+      break;
+  case "m": console.log("media "+((primo+secondo)/2));
+      break;
+  default: console.log("caso non contemplato");}
